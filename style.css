@@ -1,0 +1,37 @@
+
+.login{
+	text-align: center;
+
+	border-style: dashed;
+    border-width: 1px;
+	width: 500px;
+	padding:25px;
+	
+	position: absolute; 
+	left: 450px; /* posiciona a 90px para a esquerda */ 
+	top: 150px; /* posiciona a 70px para baixo */
+
+}
+
+.cadastro{
+
+	text-align: center;
+
+	border-style: dashed;
+    border-width: 1px;
+	width: 500px;
+	padding:25px;
+	
+	position: absolute; 
+	left: 450px; /* posiciona a 90px para a esquerda */ 
+	top: 150px; /* posiciona a 70px para baixo */
+
+}
+
+.panel-default{
+	position: absolute; 
+	left: 200px	; /* posiciona a 90px para a esquerda */ 
+	top: 150px; /* posiciona a 70px para baixo */
+
+
+}

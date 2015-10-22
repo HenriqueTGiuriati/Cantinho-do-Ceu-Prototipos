@@ -1,0 +1,31 @@
+.geral{
+	position: absolute; 
+	left: 30px; /* posiciona a 90px para a esquerda */ 
+	top: 150px; /* posiciona a 70px para baixo */
+}
+
+
+.texto{
+	
+	position: absolute; 
+	left: 450px; /* posiciona a 90px para a esquerda */ 
+	top: 50px; /* posiciona a 70px para baixo */
+}
+
+.navbar-header{
+
+	position: absolute; 
+	left: 30px; /* posiciona a 90px para a esquerda */ 
+	top: 30px; /* posiciona a 70px para baixo */
+
+}
+
+.panel-group{
+
+	position: absolute; 
+	left: 30px; /* posiciona a 90px para a esquerda */ 
+	top: 260px; /* posiciona a 70px para baixo */
+
+
+}
+

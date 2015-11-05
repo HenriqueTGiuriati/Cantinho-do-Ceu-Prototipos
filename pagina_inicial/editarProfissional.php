@@ -9,11 +9,11 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    
+    <link rel="stylesheet" href="C:\MAMP\htdocs\cantinho\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\css">
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    
+    <script src="C:\MAMP\htdocs\cantinho\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\css"></script>
 
 <script type="text/javascript" src="CadastrarProfissional.js"></script>
    
@@ -30,7 +30,7 @@
 		  
 			<div class="panel panel-default">
 			
-				<div class="panel-heading"><h3><center>CADASTRO DO PROFISSIONAL</center><h3></div>
+				<div class="panel-heading"><h3><center>EDIÇÃO DO PROFISSIONAL</center><h3></div>
 				<div class="panel-body">
 				
 				<div class="container" style="background-color:#fff" >
@@ -146,17 +146,31 @@
 			</div> <!-- form-group -->
 	
 			<div class="col-sm-12 form-group">
-        <label for="inputUser" class="col-sm-2 control-label">Cargo/Profissão:</label>
-        <div class="col-sm-4">
-        	<input type="text" class="form-control" id="cargoProfissional" placeholder="">
-        </div>
+        <label class="col-sm-offset-1 col-sm-1 control-label">21/07/2013 </label>
+        <label for="inputUser" class="col-sm-1 control-label">Cargo/Profissão:</label>
+        <span class="col-sm-2 control-label">Médico Ortopedista</span>
+        
 
 				<label for="inputUser" class="col-sm-1 control-label">Salário:</label>
+        <span class="col-sm-2 control-label">R$ 3000,00</span>
+
+        <div id="alterarCargo" class="col-sm-2 btn btn-info">Alterar Cargo </div>
+        
+			</div> <!-- form-group -->
+
+      <div id ="newCargo" class="col-sm-12 form-group">
+
+        <label for="inputUser" class="col-sm-2 control-label">Cargo/Profissão:</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="cargoProfissional" placeholder="">
+        </div>
+
+        <label for="inputUser" class="col-sm-1 control-label">Salário:</label>
         <div class="col-sm-2">
           <input type="text" class="form-control" id="salarioProfissional" placeholder="">
-        </div>        
+        </div>
         
-			</div> <!-- form-group -->      
+      </div> <!-- form-group -->
 
 			<div class="col-sm-12 form-group">
 		    		<label for="inputUser" class="col-sm-2 control-label">Horário</label>
@@ -379,14 +393,40 @@
                   	</div> <!-- form-group -->
 
 			<div class="col-sm-12 form-group">
-
-                    		<label for="inputUser" class="col-sm-2 control-label">Exame Médico:</label>
-
+        <label for="inputUser" class="col-sm-2 control-label">Exame Admissional:</label>
 				<div class="col-sm-4">
-                      			<input type="file" class="form-control" id="exameArqProfissional" placeholder="">
-                    		</div>
+          <input type="file" class="form-control" id="exameArqProfissional" placeholder="">
+        </div>
+      </div> <!-- form-group -->
 
-                  	</div> <!-- form-group -->
+      <div class="col-sm-12 form-group">
+        <label for="inputUser" class="col-sm-2 control-label">Exames Anuais:</label>
+        <div id="inserirExame" class="col-sm-offset-6 col-sm-2 btn btn-info">Inserir Exame </div>
+        
+      </div> <!-- form-group -->
+
+      <div class="col-sm-12 form-group">
+        <label for="inputUser" class="col-sm-offset-1 col-sm-2 control-label">21/10/2014</label>
+        <span class="col-sm-1 control-label">exame.pdf</span>
+        <div id="inserirExame" class="col-sm-2 btn btn-info">Visualizar Exame </div>
+      </div> <!-- form-group -->      
+
+      <div id="novoExame" class="col-sm-12 form-group">
+        <label for="inputUser" class="col-sm-offset-1 col-sm-2 control-label">Data: </label>
+        <div class="col-sm-3">
+          <input type="text" class="form-control" id="reservistaProfissional" placeholder="">
+        </div>
+        <div class="col-sm-4">          
+          <input type="file" class="form-control " id="exameArqProfissional" placeholder="">
+        </div>
+      </div> <!-- form-group -->
+
+      <div class="col-sm-12 form-group">
+        <label for="inputUser" class="col-sm-2 control-label">Exame Demissional:</label>
+        <div class="col-sm-4">
+          <input type="file" class="form-control" id="exameArqProfissional" placeholder="">
+        </div>
+      </div> <!-- form-group -->
 
 			<div class="col-sm-12 form-group">
 
@@ -536,11 +576,22 @@
 				
 			</div>
 		</div>
-	</div>	
-			
-    
-            
-
-            
+	</div>	  
   </body>
 </html>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#newCargo').hide('fast');
+    $('#novoExame').hide('fast');
+  });
+
+
+  $('#alterarCargo').click(function(){
+      $('#newCargo').show('fast');
+  });
+
+  $('#inserirExame').click(function(){
+      $('#novoExame').show('fast');
+  });
+</script>

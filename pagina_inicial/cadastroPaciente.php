@@ -283,11 +283,8 @@
                     <div class="col-sm-2">
                       <input type="date" class="form-control" id="dataEmiRGPaciente" placeholder="">
                     </div>
-                  </div> <!-- form-group -->      
+                  </div> <!-- form-group -->         
 
-               
-
-                  
                     <div class="col-sm-12 form-group">
                       <div class="col-sm-12">
                        <h5>Carteira de Trabalho:</h5> 
@@ -305,17 +302,26 @@
                     <div class="col-sm-2">
                       <input type="text" class="control-label form-control" id="dataEmiCarTrabPaciente" placeholder="">
                     </div>
-                      <label for="inputUser" class="col-sm-6 control-label col-sm-3 control-label">Data Emissão:</label>
-                        <div class="col-sm-6">
+
+                  </div> <!-- form-group -->
+
+
+                  <div class="col-sm-12 form-group"> 
+                      <label for="inputUser" class="col-sm-6 control-label col-sm-2 control-label">Data Emissão:</label>
+                        <div class="col-sm-3">
                           <input type="date" class="control-label form-control" id="dataEmiCarTrabPaciente" placeholder="">
                         </div>
                     </div> <!-- form-group -->
 
 
+                    <div class="col-sm-12 form-group">
+                    </div>
 
-                      <div class="col-sm-3 form-group">
-                        <label for="inputMunicipio" class="col-sm-3 control-label">Status do Paciente:</label>
-                        <div class="col-sm-9">
+
+
+                      <div class="col-sm-12 form-group">
+                        <label for="inputMunicipio" class="col-sm-2 control-label">Status do Paciente:</label>
+                        <div class="col-sm-3">
                           <select class="form-control" id="status">
                             <option>Ativado</option>
                             <option>Desativado - por alta</option>
@@ -328,9 +334,9 @@
                   <div class="col-sm-12">                  
                    <h5>Renda</h5> 
                   </div>
-                  <div class="col-sm-6 form-group">
-                    <label for="inputUser" class="col-sm-3 control-label">Valor:</label>
-                    <div class="col-sm-9">
+                  <div class="col-sm-12 form-group">
+                    <label for="inputUser" class="col-sm-2 control-label">Valor:</label>
+                    <div class="col-sm-3">
                       <input type="text" class="form-control" id="rendaPaciente" placeholder="">
                     </div>
                   </div> <!-- form-group --> 

@@ -32,25 +32,78 @@
 					<div class="container" style="background-color:#fff">
 					<br />
 					
-					<div class="col-sm-5 form-group">
-						<label for="inputUser" class="col-sm-5 control-label">Nome do Paciente:</label>
-						<div class="col-sm-10">
+					<div class="col-sm-12 form-group">
+						<label for="inputUser" class="col-sm-2 control-label">Nome do Paciente:</label>
+						<div class="col-sm-3">
 							<input type="text" class="form-control" id="nomePaciente" placeholder="">
 						</div>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 					</div>
+
+					<div class="col-sm-12 form-group">
+						<label for="inputUser" class="col-sm-2 control-label">Data:</label>
+						
+						<div class="col-sm-3">
+							<input type="date" class="form-control" id="nomePaciente" placeholder="">
+						</div>
+
 					</div>
+
+
+					<div class="col-sm-12 form-group">
+						
+						<div class="col-sm-5">
+
+								<label>
+									<input type="checkbox" name="optionsRadios" class="" > Receberá visita na instituição.
+								</label>
+
+						</div>
+
+					</div>
+
+					<div class="col-sm-12 form-group">
+
+						<div class="col-sm-5">
+								<label>
+									<input type="checkbox" name="optionsRadios" class=""> Voltará para casa no fim de semana.
+								</label>
+						</div>
+
+					</div>
+
+					<div class="col-sm-12 form-group">
+
+						<div class="col-sm-5">
+								<label>
+									<input type="checkbox" name="optionsRadios" class=""> Passeio com voluntário.
+								</label>
+						</div>
+
+					</div>
+
+					<div class="col-sm-12 form-group">
+						<label for="inputUser" class="col-sm-2 control-label">Observações:</label>		
+
+					</div>
+
+
+					<div class="col-sm-12 form-group">
+						<div class="col-sm-10">
+								<textarea rows="15" cols="140" maxlength="1000"></textarea>	
+								
+						</div>
+
+					</div>
+					
+					<div class="col-sm-12 form-group">
+							<div class="col-sm-4"> </div>
+
+							<div class="col-sm-2"><br /><br />
+								<input type="submit" class="btn btn-primary" value="Salvar"/><br /><br /> 
+								
+							</div>
+						</div><!-- form-group -->
+				</div>
 				</div>
 			</div>
 		</div>

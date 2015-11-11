@@ -237,7 +237,42 @@
 							</div>
 							<div class="col-sm-1"> </div>
 						</div><!-- form-group -->
+
+						<div class="col-sm-12">
+							<h4>Assistente Social</h4> 
+						</div>
 						
+
+						<div class="col-sm-12 form-group">
+							<label for="inputUser" class="col-sm-3 control-label">Parecer Assistente social:</label>
+							<div class="col-sm-1 radio">
+								<label>
+									<input type="radio" name="optionsRadios" class="" > Favorável
+								</label>
+								<label>
+									<input type="radio" name="optionsRadios" class=""> Desfavorável
+								</label>
+							</div>    <br />                        
+						</div> <!-- form-group -->
+
+						<div class="col-sm-12 form-group">
+							<div class="col-sm-4"> </div>
+
+							<label for="inputUser" class="col-sm-3 control-label">Parecer Assistente social:</label>
+			
+							<div class="col-sm-6"> </div>
+
+
+							<div class="col-sm-2"> </div>
+
+							<div class="col-sm-10">
+								<textarea rows="15" cols="140" maxlength="1000"></textarea>	
+								
+							</div>
+							<div class="col-sm-1"> </div>
+						</div><!-- form-group -->
+
+
 						<div class="col-sm-12 form-group">
 							<div class="col-sm-4"> </div>
 

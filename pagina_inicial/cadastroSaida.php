@@ -89,7 +89,7 @@
                     <select class="form-control" id="input">
                       <option>Paciente</option>
                       <option>Danificado</option>
-                      <option>Validade</option>
+                      <option>Doação</option>
                     </select>
                  </div>
               </div> <!-- form-group -->
@@ -107,7 +107,18 @@
 
                 (Caso tenha sido selecionado Paciente em Motivo)
 
+
               </div> <!-- form-group -->
+
+
+                <div class="col-sm-12 form-group">
+                  <label for="inputUser" class="col-sm-2 control-label">Estabelecimento par doação:</label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control" id="quantidade" placeholder="">
+                  </div>
+
+                  (Caso tenha sido selecionado Doação em Motivo)
+                </div> <!-- form-group -->
 
               <div class="col-sm-12 form-group">
                 <label for="inputUser" class="col-sm-2 control-label">Motivo da danificação:</label>

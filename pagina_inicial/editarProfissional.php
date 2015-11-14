@@ -68,7 +68,7 @@
                   <div class="col-sm-12 form-group">
                     <label for="inputUser" class="col-sm-2 control-label">Nome:</label>
                     <div class="col-sm-8">
-                      <input type="text" class="form-control" id="nomeProfissional" placeholder="">
+                      <input type="text" pattern="[a-zA-Z]+" title="Somente letras" class="form-control" id="nomeProfissional" placeholder="">
                     </div>
                   </div> <!-- form-group -->
 		
@@ -93,12 +93,12 @@
 		<div class="col-sm-12 form-group">
               <label for="inputUser" class="col-sm-2 control-label">Naturalidade:</label>
               <div class="col-sm-3">
-                <input type="text" class="form-control" id="naturalidade" placeholder="">
+                <input type="text" pattern="[a-zA-Z]+" title="Somente letras" class="form-control" id="naturalidade" placeholder="">
               </div>                            
 
               <label for="inputUser" class="col-sm-2 control-label">Nacionalidade:</label>
               <div class="col-sm-3">
-                <input type="text" class="form-control" id="nacionalidade" placeholder="">
+                <input type="text" pattern="[a-zA-Z]+" title="Somente letras" class="form-control" id="nacionalidade" placeholder="">
               </div>                            
             </div> <!-- form-group -->
 
@@ -140,7 +140,7 @@
 			<div class="col-sm-12 form-group">
 		    		<label for="inputUser" class="col-sm-2 control-label">Identificação:</label>
                     		<div class="col-sm-4">
-                      			<input type="text" class="form-control" id="idProfissional" placeholder="">
+                      			<input type="text" pattern="[a-zA-Z0-9]+" class="form-control" id="idProfissional" placeholder="">
                     		</div>
 
 			</div> <!-- form-group -->
@@ -162,12 +162,12 @@
 
         <label for="inputUser" class="col-sm-2 control-label">Cargo/Profissão:</label>
         <div class="col-sm-4">
-          <input type="text" class="form-control" id="cargoProfissional" placeholder="">
+          <input type="text" pattern="[a-zA-Z]+" title="Somente letras" class="form-control" id="cargoProfissional" placeholder="">
         </div>
 
         <label for="inputUser" class="col-sm-1 control-label">Salário:</label>
         <div class="col-sm-2">
-          <input type="text" class="form-control" id="salarioProfissional" placeholder="">
+          <input type="text" pattern="[0-9]+,[0-9]{2}$" class="form-control" id="salarioProfissional" placeholder="">
         </div>
         
       </div> <!-- form-group -->
@@ -175,7 +175,7 @@
 			<div class="col-sm-12 form-group">
 		    		<label for="inputUser" class="col-sm-2 control-label">Horário</label>
                     		<div class="col-sm-3">
-                      			<input type="text" class="form-control" id="horarioProfissional" placeholder="">
+                      			<input type="text" pattern="[0-2][0-9]:[0-5][0-9]" class="form-control" id="horarioProfissional" placeholder="">
                     		</div>
 
 			</div> <!-- form-group -->
@@ -196,7 +196,7 @@
                   <div class="col-sm-12 form-group">
                     <label for="inputUser" class="col-sm-2 control-label">Número:</label>
                     <div class="col-sm-1">
-                      <input type="text" class="form-control" id="numeroProfissional" placeholder="">
+                      <input type="text" pattern="[0-9]+" class="form-control" id="numeroProfissional" placeholder="">
                     </div>
 
                     <label for="inputUser" class="col-sm-1 control-label">Bairro:</label>
@@ -237,19 +237,19 @@
 
                     <label for="inputUser" class="col-sm-1 control-label">CEP:</label>
                     <div class="col-sm-2">
-                      <input type="text" class="form-control" id="cepPaciente" placeholder="">
+                      <input type="text" pattern="[0-9]{5}-[0-9]{3}" title="XXXXX-XXX" class="form-control" id="cepPaciente" placeholder="">
                     </div>
                   </div> <!-- form-group -->
 
                   <div class="col-sm-12 form-group">
                     <label for="inputUser" class="col-sm-2 control-label">Telefone:</label>
                     <div class="col-sm-3">
-                      <input type="text" class="form-control" id="fonePaciente" placeholder="">
+                      <input type="text" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}"  title="(XX) XXXX-XXXX" class="form-control" id="fonePaciente" placeholder="">
                     </div>
 
                     <label for="inputUser" class="col-sm-2 control-label">Celular:</label>
                     <div class="col-sm-3">
-                      <input type="text" class="form-control" id="celPaciente" placeholder="">
+                      <input type="text" pattern="\([0-9]{2}\)[\s][0-9]{8,9}"  title="(XX) XXXXXXXXX" class="form-control" id="celPaciente" placeholder="">
                     </div>
                   </div> <!-- form-group -->
                 </div>
@@ -275,7 +275,7 @@
 
                     		<label for="inputUser" class="col-sm-2 control-label">CPF:</label>
                     		<div class="col-sm-3">
-                      			<input type="text" class="form-control" id="cpfProfissional" placeholder="">
+                      			<input type="text" pattern="[0-9]{11}" class="form-control" id="cpfProfissional" placeholder="">
                     		</div>
 
 				<label for="inputUser" class="col-sm-1 control-label">Arquivo:</label>
@@ -446,7 +446,7 @@
                   <div class="col-sm-12 form-group">
                     <label for="inputUser" class="col-sm-2 control-label">Nome:</label>
                     <div class="col-sm-7">
-                      <input type="text" class="form-control" id="nomePareProfissional" placeholder="">
+                      <input type="text" pattern="[a-zA-Z]+" title="Somente letras" class="form-control" id="nomePareProfissional" placeholder="">
                     </div>
                   </div> <!-- form-group -->
 
@@ -469,7 +469,7 @@
 
                       <label for="inputUser" class="col-sm-1 control-label">Telefone:</label>
                       <div class="col-sm-2">
-                        <input type="text" class="form-control" id="fonePareProfissional" placeholder="">
+                        <input type="text" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}"  title="(XX) XXXX-XXXX" class="form-control" id="fonePareProfissional" placeholder="">
                       </div>
                     </div> <!-- form-group -->
 
@@ -489,72 +489,7 @@
                   </div> <!-- form-group -->
 
 
-                  <div class="col-sm-12 form-group">
-                    <label for="inputUser" class="col-sm-2 control-label">Nome:</label>
-                    <div class="col-sm-7">
-                      <input type="text" class="form-control" id="nomePareProfissional" placeholder="">
-                    </div>
-                  </div> <!-- form-group -->
-
-		  <div class="col-sm-12 form-group">
-                    <label for="inputUser" class="col-sm-2 control-label">Data Nascimento:</label>
-                    <div class="col-sm-2">
-                      <input type="text" class="form-control" id="dtaPareProfissional" placeholder="">
-                    </div>
-
-                        <label for="inputUser" class="col-sm-2 control-label">Grau de Parentesco:</label>
-                        <div class="col-sm-2">
-                          <select class="form-control" id="parentesco">
-                            <option>Filho(a)</option>
-                            <option>Conjuguê</option>
-                            <option>Mãe</option>
-                            <option>Pai</option>
-                            <option>Irmão(a)</option>
-                          </select>
-                        </div>
-
-                      <label for="inputUser" class="col-sm-1 control-label">Telefone:</label>
-                      <div class="col-sm-2">
-                        <input type="text" class="form-control" id="fonePareProfissional" placeholder="">
-                      </div>
-                    </div> <!-- form-group -->
-
-                  <div class="col-sm-12 form-group">
-                    <label for="inputUser" class="col-sm-2 control-label">Cert. Nascimento:</label>
-                    <div class="col-sm-7">
-                      	<input type="file" class="form-control" id="certNascArqParen" placeholder="">
-                    </div>*Menores de 14 anos
-                  </div> <!-- form-group -->
-
-                  <div class="col-sm-12 form-group">
-                    <label for="inputUser" class="col-sm-2 control-label">Cart. Vacinação:</label>
-                    <div class="col-sm-7">
-                      	<input type="file" class="form-control" id="vacinaArqParen" placeholder="">
-                    </div>*Menores de 6 anos
-                  </div> <!-- form-group -->
-
-                  <div class="col-sm-12 form-group">
-                    <label for="inputUser" class="col-sm-2 control-label">Declar. Escolar:</label>
-                    <div class="col-sm-7">
-                      	<input type="file" class="form-control" id="escolaArqParen" placeholder="">
-                    </div>*Maiores de 6 anos
-                  </div> <!-- form-group -->
-
-		<div class="col-sm-12 form-group">
-                    <div class="col-sm-9">
-                    </div>
-
-		    <div class="col-sm-1">
-			<input type="button" value="Adicionar" onclick="">
-                    </div>
-
-
-		    <div class="col-sm-1">
-			<input type="button" value="Excluir" onclick="">
-                    </div>
-
-                  </div> <!-- form-group -->
-
+  
                 </div>
 
                 </div>

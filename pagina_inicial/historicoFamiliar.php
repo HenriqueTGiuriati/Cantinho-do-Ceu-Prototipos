@@ -3,20 +3,16 @@
 	<head>
 		<title> Cadastro Paciente</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" type="text/css" href="style.css" media="screen">
-		
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="style.css">
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		  
+	
+		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="../bootstrap/AdminLTE.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="../bootstrap/skins/_all-skins.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	  
 	</head>
 		
-	<body>
+	<body class="skin-blue layout-top-nav">
 		<?php
 		include"designSistema.php";
 		?>
@@ -54,3 +50,4 @@
 				</div>
 			</div>
 		</div>
+		<script src="../bootstrap/js/bootstrap.min.js"></script>

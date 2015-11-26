@@ -174,7 +174,13 @@
                           <option>Divorciado(a)</option>
                           <option>Viúvo(a)</option>
                         </select>
-                      </div>                           
+                      </div>  
+                      
+                      <div class="col-sm-offset-1 col-sm-4">
+                        <label>
+                          <input type="checkbox"> Atendido pelo SUS
+                        </label>
+                      </div>                         
                   </div> <!-- form-group -->                  
                 </div>
 

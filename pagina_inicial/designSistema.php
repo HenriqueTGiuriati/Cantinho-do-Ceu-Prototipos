@@ -70,7 +70,7 @@
 			</div>
 			
 		
-			<button type="button" class="btn btn-primary btn-lg">.......</button>
+			<a href="agenda.php" type="button" class="btn btn-primary btn-lg">Agenda</a>
 
 
 			<div class="btn-group">

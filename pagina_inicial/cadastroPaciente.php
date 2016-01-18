@@ -54,7 +54,7 @@
                   <div class="col-sm-12 form-group">
                     <label for="inputUser" class="col-sm-2 control-label">Nome:</label>
                     <div class="col-sm-3">
-                      <input type="text" class="form-control" id="nomePaciente" placeholder="">
+                      <input type="text" pattern="[a-zA-Z]+" title="Somente letras" class="form-control" id="nomePaciente" placeholder="">
                     </div>
                       </div> <!-- form-group -->
 
@@ -107,12 +107,12 @@
             <div class="col-sm-12 form-group">
               <label for="inputUser" class="col-sm-2 control-label">Naturalidade:</label>
               <div class="col-sm-3">
-                <input type="text" class="form-control" id="naturalidade" placeholder="">
+                <input type="text" pattern="[a-zA-Z]+" title="Somente letras" class="form-control" id="naturalidade" placeholder="">
               </div>
 
               <label for="inputUser" class="col-sm-2 control-label">Nacionalidade:</label>
               <div class="col-sm-3">
-                <input type="text" class="form-control" id="nacionalidade" placeholder="">
+                <input type="text" pattern="[a-zA-Z]+" title="Somente letras" class="form-control" id="nacionalidade" placeholder="">
               </div>                            
             </div> <!-- form-group -->
         
@@ -137,7 +137,7 @@
                     <div class="col-sm-12 form-group">
                       <label for="inputUser" class="col-sm-2 control-label">Ocupação:</label>
                       <div class="col-sm-3">
-                        <input type="text" class="form-control" id="ocupacao" placeholder="">
+                        <input type="text" pattern="[a-zA-Z]+" title="Somente letras" class="form-control" id="ocupacao" placeholder="">
                       </div>             
                     </div> <!-- form-group -->
 
@@ -149,7 +149,7 @@
 
                     <label for="inputUser" class="col-sm-2 control-label">CPF:</label>
                     <div class="col-sm-3">
-                      <input type="text" class="form-control" id="cpf" placeholder="">
+                      <input type="text" pattern="[0-9]{11}" class="form-control" id="cpf" placeholder="">
                     </div>
                   </div> <!-- form-group -->
 
@@ -174,7 +174,13 @@
                           <option>Divorciado(a)</option>
                           <option>Viúvo(a)</option>
                         </select>
-                      </div>                           
+                      </div>  
+                      
+                      <div class="col-sm-offset-1 col-sm-4">
+                        <label>
+                          <input type="checkbox"> Atendido pelo SUS
+                        </label>
+                      </div>                         
                   </div> <!-- form-group -->                  
                 </div>
 
@@ -194,7 +200,7 @@
 
                     <label for="inputUser" class="col-sm-2 control-label">Número:</label>
                     <div class="col-sm-2">
-                      <input type="text" class="form-control" id="numeroPaciente" placeholder="">
+                      <input type="text" pattern="[0-9]+" title="Somente números" class="form-control" id="numeroPaciente" placeholder="">
                     </div>
 
                     <label for="inputUser" class="col-sm-1 control-label">Bairro:</label>
@@ -235,19 +241,19 @@
 
                     <label for="inputUser" class="col-sm-1 control-label">CEP:</label>
                     <div class="col-sm-2">
-                      <input type="text" class="form-control" id="cepPaciente" placeholder="">
+                      <input type="text" pattern="[0-9]{5}-[0-9]{3}" title="XXXXX-XXX" class="form-control" id="cepPaciente" placeholder="">
                     </div>
                   </div> <!-- form-group -->
 
                   <div class="col-sm-12 form-group">
                     <label for="inputUser" class="col-sm-2 control-label">Telefone:</label>
                     <div class="col-sm-3">
-                      <input type="text" class="form-control" id="fonePaciente" placeholder="">
+                      <input type="text" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}"  title="(XX) XXXX-XXXX" class="form-control" id="fonePaciente" placeholder="">
                     </div>
 
                     <label for="inputUser" class="col-sm-2 control-label">Celular:</label>
                     <div class="col-sm-3">
-                      <input type="text" class="form-control" id="celPaciente" placeholder="">
+                      <input type="text" pattern="\([0-9]{2}\)[\s][0-9]{8,9}"  title="(XX) XXXXXXXXX" class="form-control" id="celPaciente" placeholder="">
                     </div>
                   </div> <!-- form-group -->
                 </div>
@@ -347,7 +353,7 @@
                   <div class="col-sm-12 form-group">
                     <label for="inputUser" class="col-sm-1 control-label">Nome:</label>
                     <div class="col-sm-7">
-                      <input type="text" class="form-control" id="conjugePaciente" placeholder="">
+                      <input type="text" pattern="[a-zA-Z]+" title="Somente letras" class="form-control" id="conjugePaciente" placeholder="">
                     </div>
                   </div> <!-- form-group -->
 
@@ -370,7 +376,7 @@
                <div class="col-sm-6 form-group">
                       <label for="inputUser" class="col-sm-3 control-label">Telefone:</label>
                       <div class="col-sm-9">
-                        <input type="text" class="form-control" id="fonePaciente" placeholder="">
+                        <input type="text" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}"  title="(XX) XXXX-XXXX" class="form-control" id="fonePaciente" placeholder="">
                       </div>
                     </div> <!-- form-group -->
 
